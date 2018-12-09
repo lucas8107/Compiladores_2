@@ -1,0 +1,17 @@
+int main() {
+	int a = 1;
+	int b = 1;
+	int target;
+	printf("Entre com o indice: ");
+	scanf(target);
+	target = target - 2;
+	int aux;
+	while(target > 0) {
+		aux = a + b;
+		a = b;
+		b = aux;
+		target = target - 1;
+	}
+	printf("A resposta é: ", b);
+	printf("\n");
+}

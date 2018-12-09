@@ -1,0 +1,11 @@
+int main() {
+    int n;
+    int acc = 1;
+    printf("Entre com o valor de n: ");
+    scanf(n);
+    while(n > 1) {
+        acc = acc * n;
+        n = n - 1;
+    }
+    printf("O factorial de n é: ", acc);
+}

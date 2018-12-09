@@ -1,0 +1,7 @@
+int main() {
+	int x = 2;
+	printf("If wont execute\n");
+	if(x >= 4) {
+		printf("It works\n");
+	}
+}
